@@ -1,35 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@finalpi 
-finalpi
-/
-OpenWrt-CI
-Public
-forked from KFERMercer/OpenWrt-CI
-Cannot fork because you own this repository and are not a member of any organizations.
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-OpenWrt-CI/openwrt-ci.yml
-@KFERMercer
-KFERMercer CI: impove the space saving KFERMercer#2
-Latest commit 18c4c64 on Dec 15, 2021
- History
- 1 contributor
-140 lines (115 sloc)  4.41 KB
- 
-
 #
 # This is free software, lisence use MIT.
 # 
@@ -158,18 +126,3 @@ jobs:
           file: ./artifact/firmware/*
           tag: ${{ github.ref }}
           file_glob: true
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-OpenWrt-CI/openwrt-ci.yml at master · finalpi/OpenWrt-CI 
